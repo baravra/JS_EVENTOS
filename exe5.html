@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VISIVEL</title>
+    <style>
+        p{
+            text-align: justify;
+            padding: 7px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        button{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: #6d95af;
+            color: white;
+            padding: 5px;
+            width: 20%;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0px 5px 5px gray;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        #mostrar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="btns">
+        <button id="ocultar" onclick="exe5('none')">OCULTAR</button>
+        <button id="mostrar" onclick="exe5('block')">MOSTRAR</button>
+
+    </div>
+    <p id="paragrafo">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum lacus eget massa fringilla sollicitudin. Sed iaculis maximus eros, ac vulputate diam mollis a. Aenean fringilla vulputate tincidunt. Aenean tempor est nec eros venenatis, a aliquam massa laoreet. Duis auctor, mauris et faucibus efficitur, ligula nisi mollis nunc, non vulputate mauris dolor a nunc. Pellentesque congue est ultricies, tristique nulla a, suscipit ex. Vestibulum mollis arcu non elementum dignissim. Praesent at varius arcu, ut laoreet dui. Nunc hendrerit ornare tellus sit amet accumsan. Curabitur cursus nisl sed auctor sagittis. 
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
