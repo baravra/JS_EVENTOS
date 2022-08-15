@@ -2,7 +2,7 @@
 Atividade proposta para usar eventos do javascript
 
 
-EXERCICIOS
+EXERCICIOS<br>
 1- Desenvolver a soma de dois numeros vindos de um formulário<br>
 2- Crie um formulario simples com 4 botoes que ao clicar em cada um altere a cor do plano de fundo da pagina para vermleho verde azul e amarelo respectivamente<br>
 3- Crie uma pagina com 4 links cada um representando o nome de uma cor que utilizando o evento onmouseover altere a cor do plano de fundo para cor correspondente<br>
